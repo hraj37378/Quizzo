@@ -1,3 +1,5 @@
+import Login from "./Login";
+
 const Quiz = () => {
     return (
         <div>
