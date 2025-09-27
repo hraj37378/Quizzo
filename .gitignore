@@ -1,0 +1,31 @@
+# ================================
+# Root-level ignores
+# ================================
+node_modules/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env
+.env.local
+.env.*.local
+.DS_Store
+Thumbs.db
+.vscode/
+
+# ================================
+# Frontend React (Vite) ignores
+# ================================
+frontend/node_modules/
+
+# Vite build output
+frontend/dist/
+
+# Vite local environment variables
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+
+# Optional lock files
+# frontend/package-lock.json
+# frontend/yarn.lock
